@@ -1,6 +1,15 @@
 # Zod Messages
 
-Zod Messages is a TypeScript project that provides a set of utilities for handling validation messages using the Zod library.
+Zod Messages is a TypeScript project that provides a set of utilities for handling validation messages using the [Zod](https://github.com/colinhacks/zod) library. This library allows you to easily validate your data and display error messages in a readable form within your components.
+
+## Features
+
+- **Easy Integration**: Seamlessly integrates with the Zod validation library.
+- **Readable Messages**: Transforms Zod error results into user-friendly validation messages.
+- **TypeScript Support**: Fully typed and compatible with TypeScript.
+- **Flexible**: Can be used in various JavaScript frameworks and environments.
+
+
 
 ## Installation
 
@@ -92,7 +101,7 @@ export const YourComponent = () => {
 }
 ```
 
-### Example for use useValidator
+### Example for use formatErrorMessages
 
 ```typescript
 //validation.ts
@@ -124,7 +133,7 @@ export const isUserValid = <T extends User>(data?: T): ValidationResult<T> => {
 
 ```
 
-### Advanced example
+### Advanced example - use custom error messages
 
 ```typescript
 import { z } from 'zod';
@@ -146,7 +155,7 @@ export const UserValidationSchema = z.object({
 })
 ```
 
-## or
+### or for use global error message
 
 ```typescript
 import {z} from 'zod';
@@ -192,4 +201,4 @@ Please make sure to update tests as appropriate.
 
 ## License
 
-[ISC](https://choosealicense.com/licenses/isc/)
+This project is licensed under the [ISC](https://choosealicense.com/licenses/isc/) License - see the LICENSE file for details.
