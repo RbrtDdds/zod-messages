@@ -14,6 +14,10 @@
   ],
   "author": "Robert Dudas",
   "license": "ISC",
+  "homepage": "https://github.com/RbrtDdds/zod-messages#readme",
+  "bugs": {
+    "url": "https://github.com/RbrtDdds/zod-messages/issues"
+  },
   "devDependencies": {
     "@babel/core": "^7.24.6",
     "@babel/preset-env": "^7.24.6",

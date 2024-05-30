@@ -99,12 +99,12 @@ export const YourComponent = () => {
 
 import { ValidationResult } from "./useValidator";
 
-export const isUserValid = (data?: User): ValidationResult<ComponentType.BEFORE_AFTER> => {
+export const isUserValid = <T extends User>(data?: T): ValidationResult<T> => {
     const result = UserValidationSchema.safeParse(data ?? initUserData);
 
     return {
         isInvalid: !result.success,
-        validationMessages: result.success ? {} : formatErrorMessages<User>(result.error),
+        validationMessages: result.success ? {} : formatErrorMessages<T>(result.error),
     }
 };
 
@@ -193,6 +193,3 @@ Please make sure to update tests as appropriate.
 ## License
 
 [ISC](https://choosealicense.com/licenses/isc/)
-```
-
-This `README.md` file includes sections for the project title, description, installation instructions, usage examples, testing instructions, contributing guidelines, and license information. You can add or remove sections as needed.
