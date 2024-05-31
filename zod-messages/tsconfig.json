@@ -1,12 +1,11 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
+    "lib": ["es5", "es6", "es7", "esnext", "dom"],
     "outDir": "dist",
     "rootDir": "src",
     "strict": true,
     "allowJs": true,
     "skipLibCheck": true,
-    "noEmit": true,
     "esModuleInterop": true,
     "module": "esnext",
     "moduleResolution": "bundler",
@@ -17,6 +16,6 @@
   },
   "include": ["src/**/*"],
   "paths": {
-    "@/*": ["./*"],
+    "@/*": ["./*"]
   }
 }

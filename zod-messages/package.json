@@ -1,8 +1,7 @@
 {
   "name": "zod-messages",
-  "version": "1.0.0",
-  "description": "zod error result messages to validation readable object",
-  "main": "src/index.ts",
+  "version": "1.0.1",
+  "description": "Zod error result messages to validation readable object",
   "scripts": {
     "build": "tsc",
     "test": "jest"
@@ -10,13 +9,27 @@
   "keywords": [
     "zod",
     "validation",
-    "messages"
+    "messages",
+    "error"
   ],
+  "repository": {
+    "type": "git",
+    "url":"https://github.com/RbrtDdds/zod-messages.git"
+  },
   "author": "Robert Dudas",
   "license": "ISC",
   "homepage": "https://github.com/RbrtDdds/zod-messages#readme",
   "bugs": {
     "url": "https://github.com/RbrtDdds/zod-messages/issues"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
   },
   "devDependencies": {
     "@babel/core": "^7.24.6",
