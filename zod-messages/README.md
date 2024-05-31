@@ -119,7 +119,7 @@ export const isUserValid = <T extends User>(data?: T): ValidationResult<T> => {
 
 //result
 // {
-//     isInvalid: false,
+//     isInvalid: true,
 //     validationMessages: {
 //         name: 'Name is required',
 //         email: 'Invalid email address',
