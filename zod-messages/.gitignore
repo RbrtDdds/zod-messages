@@ -2,6 +2,7 @@ node_modules
 build
 lib
 .idea
+dist
 
 .DS_Store
 coverage
