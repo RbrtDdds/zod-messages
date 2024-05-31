@@ -1,6 +1,6 @@
 {
   "name": "zod-messages",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "Zod error result messages to validation readable object",
   "scripts": {
     "build": "tsc",
@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url":"https://github.com/RbrtDdds/zod-messages.git"
+    "url": "https://github.com/RbrtDdds/zod-messages.git"
   },
   "author": "Robert Dudas",
   "license": "ISC",
