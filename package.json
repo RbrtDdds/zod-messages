@@ -23,7 +23,7 @@
     "url": "https://github.com/RbrtDdds/zod-messages/issues"
   },
   "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
+  "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
     "dist"

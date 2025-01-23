@@ -2,7 +2,9 @@
   "compilerOptions": {
     "lib": ["es5", "es6", "es7", "esnext", "dom"],
     "outDir": "dist",
-    "rootDirs": ["src"],
+    "rootDirs": [
+      "src"
+    ],
     "strict": true,
     "allowJs": false,
     "skipLibCheck": true,
@@ -17,5 +19,7 @@
     "declaration": true,
     "declarationMap": true
   },
-  "include": ["src/**/*"]
+  "include": [
+    "src/**/*"
+  ]
 }
