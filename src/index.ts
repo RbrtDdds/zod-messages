@@ -1,4 +1,4 @@
-export { useValidator } from './useValidator';
+export { useValidator, initialValidationResult, eGlobalErrorMessage } from './useValidator';
 export type {
   ValidationResult,
   ValidationItemResult,

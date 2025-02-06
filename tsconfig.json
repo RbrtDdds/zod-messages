@@ -1,25 +1,23 @@
 {
   "compilerOptions": {
-    "lib": ["es5", "es6", "es7", "esnext", "dom"],
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
     "outDir": "dist",
-    "rootDirs": [
-      "src"
-    ],
+    "rootDirs": ["src"],
     "strict": true,
     "allowJs": false,
     "skipLibCheck": true,
     "esModuleInterop": true,
-    "module": "commonjs",
-    "moduleResolution": "node",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "target": "es2015",
+    "target": "ESNext",
     "declaration": true,
-    "declarationMap": true
+    "declarationMap": true,
+    "sourceMap": true,
   },
-  "include": [
-    "src/**/*"
-  ]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist", "src/__tests__"]
 }
