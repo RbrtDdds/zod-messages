@@ -14,7 +14,7 @@ import {
 } from "./__MOCK__/model";
 import {eGlobalErrorMessage, useValidator, ValidationItemResult, ValidationResult} from "../useValidator";
 import { act, cleanup, renderHook } from "@testing-library/react";
-
+import { describe, it, afterEach, expect } from 'vitest'
 
 describe('zodValidator', () => {
     afterEach(cleanup);

@@ -10,6 +10,16 @@ Zod Messages is a TypeScript project that provides a set of utilities for handli
 - **Flexible**: Can be used in various JavaScript frameworks and environments.
 
 
+<table>
+  <tr>
+    <td class="background-color: red;">
+      <strong>⚠️ React Dependency</strong><br><br>
+      <code>useValidator</code> uses <strong>React hooks</strong> under the hood.<br><br>
+      Make sure <code>react</code> is installed as a dependency in your project:
+    </td>
+  </tr>
+</table>
+
 
 ## Installation
 
