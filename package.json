@@ -1,6 +1,6 @@
 {
   "name": "zod-messages",
-  "version": "1.2.1",
+  "version": "2.0.0",
   "description": "Zod error result messages to validation readable object",
   "type": "module",
   "scripts": {
